@@ -8,9 +8,7 @@ Checklist
 
     - Fonction
         - Input, Print
-
-            Exemple 1
-                             
+                                        
         - IF, ELIF, ELSE
 
         - Boucle FOR, WHILE

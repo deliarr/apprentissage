@@ -4,9 +4,10 @@ nom = "Franck"
 ville = "Toulouse"
 ans = str(51)
 
-print("Bonjour je m'appele : " + nom + " je vie à " + ville + " et j'ai " + ans + " ans")
+print("Bonjour je m'appelle : " + nom + " je vie à " + ville + " et j'ai " + ans + " ans")
 
-""" Dans cette exemple nous allons utiliser la fonction INPUT pour poser une question et permettre d'y écrire quelque chose.
+""" Dans cette exemple nous allons utiliser la fonction INPUT pour poser une question et permettre 
+d'y écrire quelque chose.
 """
 annee = input("Saisissez une année : ")
 annee = int(annee)
