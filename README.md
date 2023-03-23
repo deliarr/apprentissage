@@ -15,11 +15,14 @@ Checklist
 
         - Variable
 
-Dictionnaire, Listes
+        - Dictionnaire, Listes
+
+    - Projet choix multiples achats des courses.
 
 Scraping base
 
-Modules Import
-Request
-BeautifulSoup4
-Pandas
+Import des modules suivants:
+
+- Request
+- BeautifulSoup4
+- Pandas
