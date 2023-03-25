@@ -18,7 +18,7 @@ Checklist
         - Dictionnaire, Listes
 
     - Projet choix multiples achats des courses.
-
+        
 Scraping base
 
 Import des modules suivants:

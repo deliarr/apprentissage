@@ -25,5 +25,6 @@ print(a + b)
 print(a + b - c)
 print(a % c)
 print(a / b * c)
-
-
+# Autres exemples ici on affiche un entier et un float
+print(f"J'affiche l'entier {10} et le float {3.14}")
+print(f"J'affiche la chaine {'Python'}")
