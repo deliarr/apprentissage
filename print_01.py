@@ -28,3 +28,12 @@ print(a / b * c)
 # Autres exemples ici on affiche un entier et un float
 print(f"J'affiche l'entier {10} et le float {3.14}")
 print(f"J'affiche la chaine {'Python'}")
+
+# On peut aussi limiter le nombre de chiffre après la virgule
+prop_GC = (4500 + 2575) / 14800
+print("La proportion de GC est", prop_GC)
+# Ici on limite à 2 chiffres après la virgule
+print(f"La proportion de GC est {prop_GC:.2f}")
+# Ici on limite à 3 chiffres après la virgule
+print(f"La proportion de GC est {prop_GC:.3f}")
+
