@@ -7,7 +7,7 @@ Checklist
     - Python base
 
     - Fonction
-        - Input, Print
+        - Print, Input
                                         
         - IF, ELIF, ELSE
 
