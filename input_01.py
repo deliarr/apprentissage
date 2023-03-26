@@ -1,6 +1,7 @@
 # Présentation de la fonction Input
 #
-#
+#########################################
+
 
 # Ici on cré un variable annee qui est = input ("une question") qui est un int entier
 annee = input("Saisissez une année : ")
@@ -11,6 +12,26 @@ if annee % 400 == 0 or (annee % 4 == 0 and annee %100 != 0):
 else:
     print("L'année saisie n'est pas une année bissextile.")
     
-#    
-name = raw_input("Entrez votre nom : ") 
-print (name)
+# Ici on a cré une
+def demander_nom():
+    nom = input("Quel est votre nom: ")
+    return nom
+
+nom_personne = demander_nom()
+print(nom_personne)
+
+
+def demander_nom():
+    nom = input("Quel est votre nom: ")
+    if nom == "":
+        print("ERREUR : Le nom ne doit pas être vide")
+        return demander_nom()
+    return nom
+
+nom_personne = demander_nom()
+
+# Vous l'aurez compris Input permet de pouvoir poser une question ou de faire un choix
+a=int(input("Saisir a: "))
+if a ==0:
+    print('a=0')
+print("C'est gagne! ")
